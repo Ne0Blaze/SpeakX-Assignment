@@ -35,26 +35,22 @@ Assignment for speakx. The deliverable include: a jupyter file containing the co
  
 - ### Knn Classifier
   K-Nearest Neighbors (KNN) algorithm used in machine learning for classification, works by storing a training dataset and classifying new data points based on their similarity to the data points in the training set.
-  This algorithm gives us an accuracy of 70%.
-   ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/7a0ff9fe-dc2b-40cb-a66a-a209429ede71)
+  This algorithm gives us an accuracy of 70%.  ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/7a0ff9fe-dc2b-40cb-a66a-a209429ede71)
 
 - ### Logistic Regression Classifier
-  Logistic regression models fits the data using a sigmoid function, and is often helpful in binary classification problems. They work by transforming a linear relationship between variables into a probability using a sigmoid function. This function outputs a value between 0 and 1, representing the likelihood of the positive outcome. This algorithm gives us an accuracy of 74% ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/f61f4481-2e16-4a46-9c3f-a3b9be4354ca)
+  Logistic regression models fits the data using a sigmoid function, and is often helpful in binary classification problems. They work by transforming a linear relationship between variables into a probability using a sigmoid function. This function outputs a value between 0 and 1, representing the likelihood of the positive outcome. This algorithm gives us an accuracy of 74%  ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/f61f4481-2e16-4a46-9c3f-a3b9be4354ca)
 
 
 - ### Random Forest Classifier
-   RF classifier uses a group of decision trees to make the classification. Each tree analyzes a random subset of data and features. The final prediction is made by majority vote (classification) or averaging (regression) of the individual tree predictions. This algorithm gives us an accuracy of 78%.
-   ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/b84f75d9-9e48-4583-ac6d-d9f5bb27eb05)
+   RF classifier uses a group of decision trees to make the classification. Each tree analyzes a random subset of data and features. The final prediction is made by majority vote (classification) or averaging (regression) of the individual tree predictions. This algorithm gives us an accuracy of 78%.  ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/b84f75d9-9e48-4583-ac6d-d9f5bb27eb05)
 
 - ### Support Vector Classifier
 
-  This algorythm finds a hyperplane that best separates different classes in high-dimensional space. This separation aims to maximize the margin between the data points and the hyperplane, leading to good generalization on unseen data. The algorithm is able to achive and accuracy of 74%.
-  ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/792fdc50-fc90-4afa-8ce4-f72fc31b443b)
+  This algorythm finds a hyperplane that best separates different classes in high-dimensional space. This separation aims to maximize the margin between the data points and the hyperplane, leading to good generalization on unseen data. The algorithm is able to achive and accuracy of 74%.  ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/792fdc50-fc90-4afa-8ce4-f72fc31b443b)
 
 - ### Neural Network
 
-  consist of interconnected nodes, like simplified neurons, that process information layer by layer. Neural networks learn by adjusting the weights between these connections. They are trained on data to recognize patterns and improve their accuracy over time. Using techniques like HyperParameter tuning we are able to achive an accuracy of 80%
-![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/bb53967d-fa7e-40fc-a012-b0d0c0e7c2ec)
+  consist of interconnected nodes, like simplified neurons, that process information layer by layer. Neural networks learn by adjusting the weights between these connections. They are trained on data to recognize patterns and improve their accuracy over time. Using techniques like HyperParameter tuning we are able to achive an accuracy of 80%.  ![image](https://github.com/Ne0Blaze/SpeakX-Assignment/assets/92355895/bb53967d-fa7e-40fc-a012-b0d0c0e7c2ec)
 
 ### Model Report: 
 All the models have almost same accuracy and metrics. We can achieve better accuracy by feature engineering techniques but its difficult to find correlation between categorical columns and their interactions can be ambiguous. 
